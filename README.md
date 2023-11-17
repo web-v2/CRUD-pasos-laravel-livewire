@@ -45,7 +45,10 @@ nameModule/index.blade.php
 _Crear el metodo index en el controller_
 
 ```
-nameController.php
+public function index()
+{
+    return view('empleados.index');
+}
 ```
 
 ## Paso No. 7
