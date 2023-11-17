@@ -47,7 +47,7 @@ _Crear el metodo index en el controller_
 ```
 public function index()
 {
-    return view('empleados.index');
+    return view('nameModule.index');
 }
 ```
 
