@@ -4,6 +4,29 @@ CRUD con Livewire
 
 ### Comenzando 🚀
 
+## Instalación Laravel + Jetstream + Livewire
+A) - Creación del proyecto
+```
+laravel new example-app
+```
+
+B) - Descargar los paquetes de Jetstream
+```
+composer require laravel/jetstream
+```
+
+C) - Instalación Jetstream + Livewire
+```
+php artisan jetstream:install livewire
+```
+
+D)
+```
+npm install
+npm run build
+php artisan migrate
+```
+
 ## Paso No. 1
 
 _Crear el modelo_
