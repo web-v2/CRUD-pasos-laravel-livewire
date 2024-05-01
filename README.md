@@ -29,10 +29,10 @@ php artisan migrate
 
 ## Paso No. 1
 
-_Crear el modelo_
+_Crear el modelo + migration + controller tipo resource_
 
 ```
-php artisan make:model nameModel -mc
+php artisan make:model nameModel -mcr
 ```
 
 ## Paso No. 2
